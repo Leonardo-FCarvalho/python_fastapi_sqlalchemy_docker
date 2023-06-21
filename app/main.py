@@ -53,4 +53,4 @@ app.include_router(anotacao.router, tags=['Anotações'], prefix='/api/anotacoes
 
 @app.get("/api/home")
 def root():
-    return {"message": "Aplicação Python com Framework FastAPI com ORM SQLAlchemy"}
+    return {"message": "Aplicação Python com Framework FastAPI, ORM SQLAlchemy e Banco de Dados PostegreSQL"}
